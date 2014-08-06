@@ -1,0 +1,23 @@
+{
+  "name": "jsop",
+  "version": "0.1.0",
+  "description": "JSON Open",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typicode/jsop.git"
+  },
+  "keywords": [
+    "JSON",
+    "open"
+  ],
+  "author": "Typicode <typicode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typicode/jsop/issues"
+  },
+  "homepage": "https://github.com/typicode/jsop"
+}
