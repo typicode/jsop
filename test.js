@@ -1,8 +1,9 @@
 var fs     = require('fs')
 var assert = require('assert')
+var sinon  = require('sinon')
 var main   = require('./')
 
-describe('feature', function() {
+describe('features', function() {
   beforeEach(function() {
     if (fs.existsSync('file.json')) fs.unlinkSync('file.json')
   })
@@ -19,6 +20,18 @@ describe('feature', function() {
         JSON.stringify(obj, null, 2)
       )
       done()
+    }, 500)
+  })
+
+  it('saves once', function() {
+    var spy = sinon.spy(fs, 'writeFile')
+    var obj = main('file.json')
+    
+    obj.a = 1
+    obj.b = 2
+
+    setTimeout(function() {
+      assert(spy.calledOnce())
     }, 500)
   })
 

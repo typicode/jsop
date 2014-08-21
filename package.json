@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/typicode/jsop/issues"
   },
-  "homepage": "https://github.com/typicode/jsop"
+  "homepage": "https://github.com/typicode/jsop",
+  "devDependencies": {
+    "sinon": "^1.10.3"
+  }
 }
