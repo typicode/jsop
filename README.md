@@ -1,6 +1,4 @@
-# jsop
-
-## Usage
+# jsop [![](https://travis-ci.org/typicode/jsop.svg?branch=master)](https://travis-ci.org/typicode/jsop)
 
 ```javascript
 // file.json
