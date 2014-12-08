@@ -26,3 +26,5 @@ config.foo = 'bar'
 ```
 
 _* jsop is short for JSON open_
+
+MIT - [Typicode](https://github.com/typicode)
