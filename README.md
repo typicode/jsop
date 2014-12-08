@@ -1,4 +1,4 @@
-# jsop
+# jsop [![](https://badge.fury.io/js/jsop.svg)](http://badge.fury.io/js/jsop) [![](https://travis-ci.org/typicode/jsop.svg?branch=master)](https://travis-ci.org/typicode/jsop)
 
 > One-way data binding for JSON files
 
