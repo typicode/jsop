@@ -1,7 +1,7 @@
 {
   "name": "jsop",
   "version": "0.1.0",
-  "description": "JSON Open",
+  "description": "One-way data-binding for JSON files",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "JSON",
-    "open"
+    "open",
+    "data"
   ],
   "author": "Typicode <typicode@gmail.com>",
   "license": "MIT",
@@ -21,7 +22,11 @@
   },
   "homepage": "https://github.com/typicode/jsop",
   "devDependencies": {
-    "mocha": "^1.21.4",
+    "mocha": "^2.0.1",
     "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "observed": "^1.1.0",
+    "steno": "^0.3.2"
   }
 }

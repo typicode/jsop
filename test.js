@@ -5,7 +5,7 @@ var main   = require('./')
 
 describe('features', function() {
   beforeEach(function() {
-    if (fs.existsSync('file.json')) fs.unlinkSync('file.json')
+    fs.writeFileSync('file.json', '{}')
   })
 
   it('autosaves', function(done) {
@@ -26,7 +26,7 @@ describe('features', function() {
   it('saves once', function() {
     var spy = sinon.spy(fs, 'writeFile')
     var obj = main('file.json')
-    
+
     obj.a = 1
     obj.b = 2
 
