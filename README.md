@@ -13,16 +13,16 @@ var config = JSON.parse(fs.readFileSync('config.json'))
 config.foo = 'bar'
 fs.writeFile('config.json', JSON.stringify(config), function(err) {
   if (err) throw err
-  })
-  ```
+})
+```
 
-  ## After
+## After
 
-  ```javascript
-  var jsop = require('jsop')
+```javascript
+var jsop = require('jsop')
 
-  var config = jsop('config.json')
-  config.foo = 'bar'
-  ```
+var config = jsop('config.json')
+config.foo = 'bar'
+```
 
-  _* jsop is short for JSON open_
+_* jsop is short for JSON open_
