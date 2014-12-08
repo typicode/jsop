@@ -2,7 +2,7 @@
 
 > One-way data binding for JSON files
 
-jsop is a new kind of JSON file reader/writer powered by Object.observe (requires Node 0.11)
+jsop is a new kind of JSON file reader/writer powered by Object.observe (requires Node 0.11). jsop is short for JSON open.
 
 ## Before
 
@@ -24,7 +24,5 @@ var jsop = require('jsop')
 var config = jsop('config.json')
 config.foo = 'bar'
 ```
-
-_* jsop is short for JSON open_
 
 MIT - [Typicode](https://github.com/typicode)
