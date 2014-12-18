@@ -1,4 +1,4 @@
-# jsop [![](https://badge.fury.io/js/jsop.svg)](http://badge.fury.io/js/jsop) [![](https://travis-ci.org/typicode/jsop.svg?branch=master)](https://travis-ci.org/typicode/jsop)
+# jsop [![](https://img.shields.io/npm/v/jsop.svg?style=flat)](https://www.npmjs.com/package/jsop) [![](https://travis-ci.org/typicode/jsop.svg?branch=master)](https://travis-ci.org/typicode/jsop) ![](http://img.shields.io/badge/node-0.12-ff69b4.svg?style=flat)
 
 > One-way data binding for JSON files
 
@@ -24,6 +24,8 @@ var jsop = require('jsop')
 var config = jsop('config.json')
 config.foo = 'bar'
 ```
+
+## License
 
 MIT - [Typicode](https://github.com/typicode)
 
