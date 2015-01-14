@@ -29,4 +29,4 @@ config.foo = 'bar'
 
 MIT - [Typicode](https://github.com/typicode)
 
-_* jsop is short for json open"_
+_* jsop is short for jsonOpen"_
