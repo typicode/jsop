@@ -2,7 +2,7 @@
 
 > One-way data binding for JSON files
 
-jsop is a new kind of JSON file reader/writer powered by __Object.observe__ (requires Node 0.11.13 or io.js 1.0.0).
+jsop is a new kind of JSON file reader/writer powered by Object.observe (requires Node 0.11.13 or io.js 1.0.0).
 
 ## Before
 
