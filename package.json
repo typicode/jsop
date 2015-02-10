@@ -1,6 +1,6 @@
 {
   "name": "jsop",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "One-way data-binding for JSON files",
   "main": "index.js",
   "scripts": {
