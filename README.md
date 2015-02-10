@@ -1,8 +1,8 @@
-# jsop [![](https://travis-ci.org/typicode/jsop.svg?branch=master)](https://travis-ci.org/typicode/jsop) [![](https://img.shields.io/npm/v/jsop.svg?style=flat)](https://www.npmjs.com/package/jsop)   ![](http://img.shields.io/badge/node-0.11.13-ff69b4.svg?style=flat) ![](https://img.shields.io/badge/io.js-1.0.0-F5DA55.svg?style=flat)
+# jsop [![](https://travis-ci.org/typicode/jsop.svg?branch=master)](https://travis-ci.org/typicode/jsop) [![](https://img.shields.io/npm/v/jsop.svg?style=flat)](https://www.npmjs.com/package/jsop)   ![](http://img.shields.io/badge/node-0.12-ff69b4.svg?style=flat) ![](https://img.shields.io/badge/io.js-1.0.0-F5DA55.svg?style=flat)
 
 > One-way data binding for JSON files
 
-jsop is a new kind of JSON file reader/writer powered by Object.observe (requires Node 0.11.13 or io.js 1.0.0).
+jsop is a new kind of JSON file reader/writer powered by Object.observe (requires __Node 0.12__ or __io.js__).
 
 ## Before
 
