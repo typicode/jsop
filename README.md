@@ -25,6 +25,8 @@ var config = jsop('config.json')
 config.foo = 'bar'
 ```
 
+_Changes get automatically written to file_
+
 ## License
 
 MIT - [Typicode](https://github.com/typicode)
