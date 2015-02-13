@@ -25,7 +25,7 @@ var config = jsop('config.json')
 config.foo = 'bar'
 ```
 
-_Changes get automatically written to file_
+_Changes are automatically written to file_
 
 ## License
 
