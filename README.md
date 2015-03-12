@@ -25,7 +25,7 @@ var config = jsop('config.json')
 config.foo = 'bar'
 ```
 
-_Changes are automatically written to file._
+_Changes are automatically written to file. If file doesn't exist, it will be created._
 
 ## License
 
