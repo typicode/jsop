@@ -23,7 +23,7 @@ describe('features', function() {
     }, 500)
   })
 
-  it('saves once', function() {
+  it('saves once', function(done) {
     var spy = sinon.spy(fs, 'writeFile')
     var obj = main('file.json')
 
@@ -31,7 +31,8 @@ describe('features', function() {
     obj.b = 2
 
     setTimeout(function() {
-      assert(spy.calledOnce())
+      assert(spy.calledOnce)
+      done()
     }, 500)
   })
 
