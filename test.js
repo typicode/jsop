@@ -38,4 +38,7 @@ describe('features', function() {
   it('returns the same object for the same file', function() {
     assert.equal(main('file.json'), main('file.json'))
   })
+  afterEach(function() {
+    fs.unlinkSync('file.json');
+  })
 })
